@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="es" data-bs-theme="auto">
-  <head><script src="assets/js/color-modes.js"></script>
+  <head><script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -93,13 +93,10 @@
     </style>
     
     <!-- Custom styles for this template -->
-    <link href="css/diseñosdepe/sign-in.css" rel="stylesheet">
+    <link href="../css/diseñosdepe/index.css" rel="stylesheet">
   </head>
 
   <body class="d-flex align-items-center py-4 bg-body-tertiary">
-    <div>
-         <!-- <img src="imagenes/mision.webp" class="img-fluid" alt="...">-->
-    </div>
     <!--Imagenes para el cambio de tema-->
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
@@ -116,9 +113,8 @@
         <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
       </symbol>
     </svg>
-    <!--Imagenes para el cambio de tema-->
-
-    <!-- PARA SELECCIONAR EL FONDO BLANCO O NEGRO -->
+    
+    <!--Seccion para el cambio de color del fondo Blanco o Negro -->
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
       <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
               id="bd-theme"
@@ -153,35 +149,29 @@
         </li>
       </ul>
     </div>
-    
-    <main class="form-signin w-100 m-auto border border-dark border-4 rounded">
-      <form>
-        <img class="mb-4 rounded mx-auto d-block" src="imagenes/MEYPAR_COLOR.png" alt="" width="150" height="200">
+    <!--Contenido General -->
+    <main class="form-signin w-100 m-auto p-4 border border-dark border-4 rounded">
+      <form >
+        <img class="mb-4 rounded mx-auto d-block" src="../imagenes/MEYPAR_COLOR.png" alt="" width="150" height="200">
         
         <h1 class="h3 mb-3 fw-bold text-center">Porfavor Ingrese su Matricula</h1>
         <div class="form-floating">
           <input type="" class="form-control my-3" id="floatingInput" placeholder="name@example.com">
           <label for="floatingInput">Matricula</label>
         </div>
-        <!--
-        <div class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Password</label>
+
+        <div class="d-flex justify-content-center py-2" > 
+          <button class="btn btn-primary w-75" type="submit">Buscar</button>
         </div>
-        -->
-        <!--
-        <div class="form-check text-start my-3">
-          <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Remember me
-          </label>
+
+        <div class="d-flex justify-content-center py-2"> 
+          <button class="btn btn-primary w-75" type="submit">Escanear</button>
         </div>
-        -->
-        <button class="btn btn-primary w-100 py-2" type="submit">Buscar</button>
+
         <p class="mt-5 mb-3 text-body-secondary text-center">&copy; Derechos 2024–2025</p>
       </form>
     </main>
-    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
   </body>
 </html>
